@@ -5,19 +5,6 @@ import java.util.List;
 
 public class HourGlass {
 
-    public static void main(String[] args) {
-
-        List<List<Integer>> myArray = Arrays.asList(
-                Arrays.asList(-9, -9, -9, 1, 1, 1),
-                Arrays.asList(0, -9,  0, 4, 3, 2),
-                Arrays.asList(-9, -9, -9, 1, 2, 3),
-                Arrays.asList(0, 0, 8, 6, 6, 0),
-                Arrays.asList(0, 0, 0, -2, 0, 0),
-                Arrays.asList(0, 0, 1, 2, 4, 0));
-
-        System.out.println(hourglassSum(myArray));
-    }
-
     public static int hourglassSum(List<List<Integer>> arr) {
         int sum = 0;
         int counter = 0;

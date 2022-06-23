@@ -9,7 +9,7 @@ public class Multithreading {
 //        myThing2.start();
 //        myThing.run();
 //        myThing2.run();
-
+        
         /*
         .start() does multithreading, .run() does one thread after another
          */

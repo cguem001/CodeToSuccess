@@ -2,13 +2,15 @@ package com.carloguemes.polymorphism;
 
 import com.carloguemes.polymorphism.Animal;
 import com.carloguemes.polymorphism.Dog;
+import com.sun.awt.AWTUtilities;
+import com.sun.deploy.uitoolkit.impl.awt.OldPluginAWTUtil;
 
 public class Polymorphism {
 
     public static void main(String[] args) {
         Animal myAnimal = new Animal();
         myAnimal.eat();
-
+        System.out.println();
         Dog myDog = new Dog();
         myDog.eat();
 
